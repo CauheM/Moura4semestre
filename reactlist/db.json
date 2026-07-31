@@ -1,0 +1,21 @@
+{
+  "taskpoint": [
+    {
+      "description": "estudar react e matematico",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "description": "estudar javascript"
+    },
+    {
+      "id": "3",
+      "description": "estudar HTML"
+    },
+    {
+      "description": "estudar algo que eu não sei ainda e tbm não sei se vou aprender",
+      "id": "4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
