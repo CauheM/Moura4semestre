@@ -41,6 +41,7 @@
   
  /* border: 1px solid rgb(223, 223, 223);*/
   font-size: 12px ;
+  
 }
 
 .cad-task{
@@ -96,7 +97,7 @@
 /*card da tarefa*/
 .cardtask{
   width: 100%;
-  min-height: 50px;
+  height: 60px;
   border-radius: 10px;
   padding: 10px 12px;
   font-size: 12px;

@@ -8,7 +8,8 @@ function App() {
   const [tasklist, setTasklist] = useState([
     {id: 1, description: "estudar react"},
     {id: 2, description: "estudar javascript"},
-    {id: 3, description: "estudar HTML"}
+    {id: 3, description: "estudar HTML"},
+    {id: 4, description: "estudar algo que eu não sei ainda e tbm não sei se vou aprender"},
   ])
   //effects
   //funções
