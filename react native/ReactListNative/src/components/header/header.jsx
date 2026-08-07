@@ -1,9 +1,10 @@
-import { View, Text, Image } from "react-native";
+import { View, Text } from "react-native";
+import { styles } from "./HeaderStyle.js";
 
 function Header() {
   return (
-    <View>
-    <Image style={{ width: 250, height: 250 }} source={require('../../assets/son.jpg')} />
+    <View style={styles.Header}>
+    <Text style={styles.Headertext}>React List</Text>
     </View>
   );
 }
