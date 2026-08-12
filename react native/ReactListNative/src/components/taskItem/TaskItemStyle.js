@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
     CardBoxIcon: {
         flexDirection: 'row',
         gap: 24,
-        paddingRight: 15
+        paddingRight: 25
 
     },
     iconPen: {
@@ -62,7 +62,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         textAlign: 'center',
         width: '60%',
-        height: 340,
+        height: 500,
         backgroundColor: '#111111',
         borderRadius: 5,
         padding: 20,
@@ -86,7 +86,6 @@ export const styles = StyleSheet.create({
         borderRadius: 5,
         paddingLeft: 10,
         backgroundColor: 'white',
-        padding: '0 5',
 
 
     },
