@@ -62,7 +62,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         textAlign: 'center',
         width: '60%',
-        height: 500,
+        height: 340,
         backgroundColor: '#111111',
         borderRadius: 5,
         padding: 20,

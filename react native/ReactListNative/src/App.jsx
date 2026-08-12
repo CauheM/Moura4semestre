@@ -10,13 +10,14 @@ import TaskList from './components/tasklist/taskList.jsx';
 
 import api from './services/Services.js';
 import { styles } from './Style.js';
+import { TaskProvider } from './context/TaskContext.jsx';
 
 export default function App() {
 
   const [arrTarefas, setArrTarefas] = useState([]);
 
   async function getTarefas() {
-    try {
+      try {
       const resposta = await api.get("/tarefas");
 
       setArrTarefas(resposta.data);
@@ -33,6 +34,8 @@ export default function App() {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.safeContainer}>
+        
+        <TaskProvider>
         <View style={styles.container}>
           <Header />
           <FormTask
@@ -43,6 +46,8 @@ export default function App() {
           <Footer />
           <StatusBar style="auto" />
         </View>
+        </TaskProvider>
+
       </SafeAreaView>
     </SafeAreaProvider>
   );
