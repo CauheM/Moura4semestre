@@ -58,19 +58,18 @@ export const TaskProvider = ({ children }) => {
 
     }
 
-    const putTask = async (id) => {
+    const putTask = async (id, descricao) => {
 
         const objCadastro = {
-            textoTarefa,
+            descricao,
         }
 
         try {
-            const retornoAPI = await api.put(`taskpoint/${id}`)
+            const retornoAPI = await api.put(`taskpoint/${id}`, objCadastro)
 
             if (retornoAPI.status == 200) {
                 alert("Tarefa editada com sucesso!")
-                getTarefas()
-                setEditar(false)
+                await getTasks()
             } else {
                 alert("Não foi possível editar a tarefa")
             }
@@ -82,7 +81,7 @@ export const TaskProvider = ({ children }) => {
 
     return (
 
-        <TaskContext.Provider value={{ listagemTarefas, getTasks, postTasks, deleteTask }}>
+        <TaskContext.Provider value={{ listagemTarefas, getTasks, postTasks, deleteTask, putTask }}>
             {children}
         </TaskContext.Provider>
 

@@ -119,3 +119,57 @@ export const styles = StyleSheet.create({
     },
 
 })
+
+export const estilosModal = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    modalContent: {
+        backgroundColor: "#1D2135",
+        borderRadius: 10,
+        padding: 20,
+        width: "85%",
+        Height: "80%",
+    },
+    titulo: {
+        fontSize: 18,
+        fontWeight: "bold",
+        marginBottom: 15,
+        color: "#ffffff",
+    },
+    input: {
+        borderWidth: 1,
+        borderColor: "#ddd",
+        borderRadius: 8,
+        padding: 12,
+        marginBottom: 20,
+        fontSize: 16,
+        color: "#ffffff",
+    },
+    botoes: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        gap: 10,
+    },
+    botao: {
+        flex: 1,
+        paddingVertical: 12,
+        borderRadius: 8,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    botaoCancelar: {
+        backgroundColor: "#b40000",
+    },
+    botaoSalvar: {
+        backgroundColor: "#4CAF50",
+    },
+    textoBotao: {
+        fontSize: 14,
+        fontWeight: "bold",
+        color: "#fff",
+    },
+});
