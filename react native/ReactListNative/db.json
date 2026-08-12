@@ -1,0 +1,13 @@
+{
+  "tarefas": [
+    {
+      "taskValue": "Torolho = tungstênio tungstênio sahur",
+      "id": "J0th-ANLH-Q"
+    },
+    {
+      "taskValue": "Torolho",
+      "id": "wlxDJS2bJdE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
