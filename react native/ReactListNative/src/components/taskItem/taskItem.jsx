@@ -81,7 +81,6 @@ export default function TaskItem({ id, descricao }) {
             <Modal
                 visible={modalVisivel}
                 transparent={true}
-                animationType="slide"
                 onRequestClose={handleCancelarEdicao}
             >
                 <View style={estilosModal.container}>
