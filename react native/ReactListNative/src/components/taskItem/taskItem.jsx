@@ -80,7 +80,7 @@ export default function TaskItem({ id, descricao }) {
 
             <Modal
                 visible={modalVisivel}
-                transparent={true}
+                transparent={true}      
                 onRequestClose={handleCancelarEdicao}
             >
                 <View style={estilosModal.container}>
